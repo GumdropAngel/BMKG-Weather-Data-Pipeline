@@ -1,0 +1,26 @@
+#ignoring every content in data_bmkg_mulyorejo folder I made...
+data_bmkg_mulyorejo/*
+
+#...but keeping these 3 file for example in my repo
+!data_bmkg_mulyorejo/bmkg_mulyorejo_raw_2025-11-20.json
+!data_bmkg_mulyorejo/bmkg_mulyorejo_clean_2025-11-20.csv
+!data_bmkg_mulyorejo/bmkg_mulyorejo_clean_latest.csv
+
+#apache airflow local files
+airflow/logs/
+airflow/*.db
+airflow/*.db-shm
+airflow/*.db-wal
+airflow/simple_auth_manager_passwords.json.generated
+
+#python environment
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+#OS and editor files
+.vscode/
+.DS_Store
